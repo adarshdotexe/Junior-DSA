@@ -100,9 +100,5 @@ int destroyStack(Stack *stack) {
         return -1;
     }
     free(stack);
-    if (stack != NULL) {
-        printf("Error: Stack Deletion failed!!");
-        return -1;
-    }
     return 0;
 }
